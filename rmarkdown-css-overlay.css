@@ -1,0 +1,144 @@
+body {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.debug {
+    background-color: Yellow;
+}
+
+.foldCaption {
+    font-family: "Franklin Gothic Demi", "Franklin Gothic Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: -25px;
+    margin-bottom: 0;
+    display: inline-block;
+    color: CornflowerBlue;
+}
+
+.hljs mark {
+    font-weight: bold;
+    background-color: Moccasin;
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px;
+    border-color: Gray;
+}
+
+.subtitle {
+    font-size: 28px;
+    color: DimGray;
+}
+
+.author>em, .date>em {
+    font-style: normal;
+    color: DimGray;
+}
+
+.tocify {
+    padding: 5px;
+} 
+
+.nav-pills {
+    font-family: "Franklin Gothic Demi", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+img {
+    display:block;
+    width: 100%;
+}
+
+.tocify, .tocify-header  .tocify-item {
+    font-family: "Franklin Gothic Demi", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-indent: 0;
+}
+
+.tocify-subheader .tocify-item {
+    font-family: "Franklin Gothic Book", "Franklin Gothic Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-indent: 0;
+}
+
+.footnotes p {
+    font-size: 16px;
+}
+
+.author>em>a {
+    font-weight: normal;
+}
+
+.kable {
+    border-color: #ddd;
+    border-style: solid;
+    border-width: .75px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.kable table {
+    font-family: "Franklin Gothic Book", "Franklin Gothic Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+
+.kable table thead tr th {
+    vertical-align: bottom;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.kable table tbody tr {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border-top-style: solid;
+    border-top-color: #ddd;
+    border-top-width: 1px;
+}
+
+.kable table caption {
+    text-align: center;
+    font-size: 24px;
+    color: DarkSlateGray;  
+}
+
+.kable table tbody tr td {
+    vertical-align: top;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+table caption, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Franklin Gothic Demi", "Franklin Gothic Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+
+.showopt {
+  background-color: #004c93;
+  color: #FFFFFF; 
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle !important;
+  float: right;
+  font-family: sans-serif;
+  border-radius: 8px;
+}
+
+.showopt:hover {
+    background-color: #dfe4f2;
+    color: #004c93;
+}
+
+pre.plot {
+  background-color: white !important;
+}

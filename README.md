@@ -1,6 +1,7 @@
 # Boosting Relevant Signals in Text Analytics and Visualizations
 
-Author: **Mike Safar**
+Author: **Mike Safar** 
+
 Date: **July 30, 2018**
 
 ## Abstract

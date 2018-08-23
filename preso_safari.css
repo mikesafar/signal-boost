@@ -16,8 +16,13 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-img {
+.instructions {
+    width: 95;
+    text-align: center;
+}
 
+.wingdings3 {
+    font-family: "Wingdings 3";
 }
 
 article, aside, details, figcaption, figure,
@@ -119,8 +124,8 @@ td {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 75px;
-    right: 75px;
+    left: 4%;
+    right: 4%;
     display: flex; /* add */
     justify-content: center; /* add to align horizontal */
     align-items: center; /* add to align vertical */
